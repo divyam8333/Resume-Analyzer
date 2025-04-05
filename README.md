@@ -31,11 +31,11 @@ This is an AI-powered Resume Analyzer built using **Streamlit** and **Gemini 1.5
 git clone https://github.com/your-username/resume-analyzer-gemini.git
 cd resume-analyzer-gemini
 
-2. **Install dependencies:**
+2. Install dependencies:
 
 pip install -r requirements.txt
 
-3.Set up Gemini API key:
+3. Set up Gemini API key:
 
 Replace YOUR_API_KEY in resume_analyzer_app.py with your actual Google AI Studio API key.
 
