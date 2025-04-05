@@ -23,6 +23,15 @@ This is an AI-powered Resume Analyzer built using **Streamlit** and **Gemini 1.5
 
 ---
 
+## 📸 Screenshots
+
+### 🖥️ Main UI
+![Main UI](screenshots/ui_demo.png)
+
+### ✅ Output Example
+![AI Output](screenshots/output_example.png)
+
+
 ## 🚀 How to Run Locally
 
 1. Clone the repository:
@@ -38,12 +47,3 @@ cd resume-analyzer-gemini
 Replace YOUR_API_KEY in resume_analyzer_app.py with your actual Google AI Studio API key.
 
 4. Run the app: "streamlit run resume_analyzer_app.py"
-
-## 📸 Screenshots
-
-### 🖥️ Main UI
-![Main UI](screenshots/ui_demo.png)
-
-### ✅ Output Example
-![AI Output](screenshots/output_example.png)
-
