@@ -1,9 +1,9 @@
-# resume-analyzer-gemini
+# resume-analyzer
 Upload a resume + job summary → get an AI-powered match %, rating, and explanation.
 
-# 🤖 Resume Analyzer with Gemini 1.5 Pro
+# 🤖 Resume Analyzer with Gemini 1.5 Pro(Paid) or Llama3(Free) 
 
-This is an AI-powered Resume Analyzer built using **Streamlit** and **Gemini 1.5 Pro**. Upload a resume and a job summary (either as text or file), and get:
+This is an AI-powered Resume Analyzer built using **Streamlit** and **Gemini 1.5 Pro** or **Llama3-70b-8192**. Upload a resume and a job summary (either as text or file), and get:
 - A **match percentage**
 - A **rating out of 5**
 - A **reason** explaining the score
@@ -43,7 +43,9 @@ cd resume-analyzer-gemini
 2. Install dependencies: pip install -r requirements.txt
 
 3. Set up Gemini API key: genai.configure(api_key="YOUR_API_KEY")
-
-Replace YOUR_API_KEY in resume_analyzer_app.py with your actual Google AI Studio API key.
+Replace YOUR_API_KEY in resume_analyzer_gemini.py with your actual Google AI Studio API key.
+or
+os.environ["GROQ_API_KEY"] = "put_groq_api_key_here"
+client = Groq(api_key=os.environ["GROQ_API_KEY"])
 
 4. Run the app: "streamlit run resume_analyzer_app.py"
